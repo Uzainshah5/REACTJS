@@ -1,0 +1,24 @@
+{
+  "name": "asalam-react",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r # Asalamuaalikum\r =======\r # REACTJS\r >>>>>>> 4c6a94aa444f98e10be275069586d70b8c81a92d",
+  "keywords": [],
+  "homepage": "https://github.com/Uzainshah5/REACTJS#readme",
+  "bugs": {
+    "url": "https://github.com/Uzainshah5/REACTJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uzainshah5/REACTJS.git"
+  },
+  "license": "ISC",
+  "author": "Uzuuu",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
