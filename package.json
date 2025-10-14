@@ -14,11 +14,19 @@
   "license": "ISC",
   "author": "Uzuuu",
   "type": "commonjs",
-  "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "devDependencies": {
     "parcel": "^2.15.4"
-  }
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browserlist": [
+    "last 2 version"
+  ]
 }
