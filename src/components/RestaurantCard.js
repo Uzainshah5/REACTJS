@@ -1,11 +1,12 @@
 import { CDN_URL } from "../utils/constant";
 
-const RestaurentCard = (props) => {
+const RestaurantCard = (props) => {
   const { resData } = props;
 
   // ✅ destructure correctly for Swiggy API
   const { cloudinaryImageId, name, cuisines, avgRating, costForTwo, sla } =
     resData?.info || {}; // add fallback in case undefined
+  console.log("cloudinaryImageId:", cloudinaryImageId, "name:", name);
 
   return (
     <div className="res-card">
@@ -23,4 +24,4 @@ const RestaurentCard = (props) => {
   );
 };
 
-export default RestaurentCard;
+export default RestaurantCard;
